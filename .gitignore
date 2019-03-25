@@ -1,0 +1,4 @@
+model
+MNIST_data
+__pycache__
+speech_commands
