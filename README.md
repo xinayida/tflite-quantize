@@ -2,7 +2,7 @@
 A demo of training tensorflow model with  quantization-aware training and convert to tflite format.
 
 ## Environment
-python 3x
+python 3x  
 tensorflow 1.13.1
 
 ## Run
