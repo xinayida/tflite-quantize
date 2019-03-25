@@ -1,11 +1,11 @@
 # 'tflite-quantize'
 A demo of training tensorflow model with  quantization-aware training and convert to tflite format.
 
-##Environment
+## Environment
 python 3x
 tensorflow 1.13.1
 
-##Run
+## Run
 
 1. train model:  
 `python train.py`
