@@ -20,9 +20,8 @@ n_batch = mnist.train.num_examples // batch_size
 # #定义placeholder
 x = tf.placeholder(tf.float32,[None,784])
 y = tf.placeholder(tf.float32,[None,10])
-W = tf.Variable(tf.zeros([784,10]))
-b = tf.Variable(tf.zeros([10]))
-logits = tf.matmul(x, W) + b
+
+logits = models.create_mode(x)
 
 
 #二次代价函数
